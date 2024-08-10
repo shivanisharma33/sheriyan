@@ -1,0 +1,276 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/download.svg);
+   
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+   
+}
+.sher{
+    height: 50px;
+}
+.icon-text{
+    display: flex;
+ gap: 10px;
+}
+.nav-bar{
+   
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.neon{
+  
+    align-items: center;
+}
+.text{
+    padding: 15px;
+    font-size: 30px;
+    font-family: "Bradley Hand ITC";
+        font-weight: bold;
+}
+.sevices{
+    display: flex;
+ gap: 70px;
+}
+ ul li{
+    padding-top: 10px;
+    list-style: none;
+    font-size: 30px;
+    font-family: "Bradley Hand ITC";
+        font-weight: bold;
+ }
+ a{
+    text-decoration: none;
+   color: #000;
+    
+    
+ }
+ .right-side{
+    display: flex;
+  gap: 20px;
+ }
+.sign{
+   
+    background-color: #428e7c;
+    border: #428e7c;
+    height: 40px;
+    width: 90px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: "Bradley Hand ITC";
+        font-weight: bold;
+
+}
+
+
+
+
+.right{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+.full{
+display: flex;
+gap: 15%;
+}
+.nav{
+    position: absolute;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    padding: 0px 40px;
+}
+#sign-in{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    z-index: 9;
+}
+#sign-in p{
+    font-size: 1.1vw;
+    margin-bottom: 0.5vh;
+    font-weight: 500;
+}
+#sign-in h1{
+    font-size: 2.5vw;
+    margin-bottom: 3vh;
+    font-weight: 650;
+}
+form{
+    position: relative;
+    width: 22.4vw;
+}
+form h5{
+    text-align: left;
+    margin-top: 1vh;
+    font-weight: 600;
+    font-size: 1vw;
+    color: rgb(118, 118, 118)
+}
+form input {
+    width: 100%;
+    background-color: white;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-left-width: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    padding: 1vh 1vw;
+    margin: 1vh 0px;
+    border-style: none none solid;
+    border-image: initial;
+    border-bottom: 3px solid rgb(24, 227, 254);
+}
+button{
+    background-color: rgb(24, 227, 254);
+    height: 50px;
+    width: 40%;
+    border-radius: 10px;
+    border: aqua;
+    color: white;
+}
+ .bb {
+    
+    width: 50%;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.2vw;
+    margin-top: 2.5vh;
+    padding: 1.6vh 0px;
+    border-radius: 50px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+background-color: rgb(30, 155, 107);
+}
+.bbt{
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.2vw;
+    margin-top: 2.5vh;
+    padding: 1.6vh 0px;
+    border-radius: 50px;
+    border-width: initial;
+    border: 2px solid black;
+   
+}
+
+
+
+/*course style*/
+.gud-msg .msg{
+    padding: 40px;
+font-size: 90px;
+
+}
+.msg span{
+    color: #428e7c;
+}
+.p-msg p{
+   padding-left: 50px;
+   font-size: 30px;
+}
+.l-msg{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+
+
+
+
+.card-body{
+    background-color: white;
+}
+.offer{
+    display: flex;
+    justify-content: space-around;
+}
+.card-title{
+    font-size: 1.6em;
+    font-weight: 400;
+    
+    color: #0c0c0c;
+    font-family: Helvetica;
+   
+}
+.card-body{
+    padding: 16px;
+}
+.card-body p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    font-weight: 300;
+    color: #7c7c7c;
+    line-height: 1.5em;
+}
+
+.btn-primary{
+  
+    background-color: #b3b3b3;
+    border: #7c7c7c;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    
+}
+.web{
+    padding-top: 20px;
+}
+.course{
+    font-size: 50px;
+    font-family: "Bradley Hand ITC";
+    font-weight: bold;
+    padding: 35px;
+}
+.fotter{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.ftr p{
+    color: #7c7c7c;
+    font-size: 20px;
+    line-height: 2.0;
+    text-align: center;
+   
+}
+.l-msg p{
+ padding-top: 20px;
+}
+

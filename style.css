@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+    
+  }
+    body{
+        background-image: url(../image/download.svg);
+       
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* navigation bar*/
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.sher{
+    height: 50px;
+}
+.icon-text{
+    display: flex;
+ gap: 10px;
+}
+.nav-bar{
+   
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.neon{
+  
+    align-items: center;
+}
+.text{
+    padding: 15px;
+    font-size: 30px;
+    font-family: "Bradley Hand ITC";
+        font-weight: bold;
+}
+.sevices{
+    display: flex;
+ gap: 70px;
+}
+ ul li{
+    padding-top: 10px;
+    list-style: none;
+    font-size: 30px;
+    font-family: "Bradley Hand ITC";
+        font-weight: bold; 
+       
+ }
+ a{
+    text-decoration: none;
+   color: #000;
+    
+    
+ }
+ .right-side{
+    display: flex;
+  gap: 20px;
+ }
+.sign{
+    background-color: #428e7c;
+    border: #428e7c;
+    height: 40px;
+    width: 90px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: "Bradley Hand ITC";
+        font-weight: bold;
+
+}
+.msg{
+
+    padding-top: 10%;
+ 
+    font-family: "Bradley Hand ITC";
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+.nd-msg{
+    text-align:end;
+    padding-right: 150px;
+    font-family: "Bradley Hand ITC";
+        font-weight: bold;
+
+}
+.buttons{
+    padding-top: 10px;
+    padding-left:40% ;
+}
+.btn{
+    background-color: #428e7c;
+    border: #428e7c;
+    color: white;
+  font-size: 20px;
+  height: 50px;
+  width:35%;
+  border-radius: 5px;
+ 
+ 
+}
+.boxs{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.help{
+    text-align: center;
+    padding-top: 10%;
+}
+.sz{
+    font-size: 50px;
+}
+.color{
+    color: #428e7c;
+    font-size: 50px;
+}
+.video{
+   padding-left: 28%;
+   padding-top: 5%;
+}
+.bttn{
+    background-color: #428e7c;
+    border: #428e7c;
+    color: white;
+  font-size: 20px;
+  height: 50px;
+  width:35%;
+  border-radius: 5px;
+}
+.card-body{
+    background-color: white;
+}
+.offer{
+    display: flex;
+    justify-content: space-around;
+}
+.card-title{
+    font-size: 1.6em;
+    font-weight: 400;
+    
+    color: #0c0c0c;
+    font-family: Helvetica;
+   
+}
+.card-body{
+    padding: 16px;
+}
+.card-body p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    font-weight: 300;
+    color: #7c7c7c;
+    line-height: 1.5em;
+}
+
+.btn-primary{
+  
+    background-color: #b3b3b3;
+    border: #7c7c7c;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    
+}
+.web{
+    padding-top: 20px;
+}
+.course{
+    font-size: 50px;
+    font-family: "Bradley Hand ITC";
+    font-weight: bold;
+    padding: 35px;
+}
+.lg{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.long{
+    border-radius: 5px;
+    background-color: #428e7c;
+    border: #428e7c;
+    height: 40px;
+    width:300px ;
+    color: white;
+    font-size: 20px;
+}
+
+.camp-txt{
+
+    padding-top: 10%;
+    font-family: "Bradley Hand ITC";
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+}
+.campny{
+    display: flex;
+    justify-content: center;
+}
+.fotter{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.ftr p{
+    color: #7c7c7c;
+    font-size: 20px;
+    line-height: 2.0;
+    text-align: center;
+   
+}
+.buttons{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}

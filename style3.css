@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+span{
+    color: rgb(9, 185, 76); 
+}
+.box1 p{
+    font-size: 20px;
+    color: white;
+}
+.box2 p {
+    font-size: 20px;
+    color: white;
+}
+.re-image{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.text p{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text p {
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    color: rgba(255,255,255,.70);
+    margin: 0 auto;
+  }
+  
+  /* Animation */
+  .text p {
+    animation: animated-text 3s steps(50,end) 1s 1 normal both,
+               animated-cursor 600ms steps(50,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 630px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+  }
+  
+  .animation{
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
+ 
+  .reg button{
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: #b2b2b2;
+    color: white;
+    font-size: 30px;
+  }
+  .excite{
+    color: white;
+
+  }
+#buttonn{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.excite button{
+    
+background-image: url(../image/startPageButtonMask_EGD158XZF2.png);
+height: 100px;
+width: 250px;
+border: none;
+border-radius: 10px;
+color: white;
+font-size: 30px;
+}
